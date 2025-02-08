@@ -1,10 +1,11 @@
 /* ====================== typing animation =========================*/
 var typed = new Typed(".typing",{
     strings:["","Web Developer", 
-        "Web Designer",
-        "React Developer",
         "Frontend Developer",
-        "App Developer",
+        "NextJs Developer",
+        "Full Stack Developer",
+        "MERN Stack Developer",
+
 
     ],
     typeSpeed: 100,
