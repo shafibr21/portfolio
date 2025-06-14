@@ -1,547 +1,787 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-quiv="X-UA-Compatible" content="width, intial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AR Shafi</title>
-    <!-- =====  CSS Files ====== -->
+    <title>ARRolling - Full Stack Developer Portfolio</title>
+    <meta name="description" content="Abdur Rahman Shafi - Full Stack Developer specializing in React, Node.js, and modern web technologies">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/skins/color-1.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Typed.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
-    <!-- ===== Main Container Start ===== -->
-    <div class="main-container">
-        <!-- ===== Aside Start ====== -->
-        <div class="aside">
+    <!-- Sidebar Navigation -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-content">
             <div class="logo">
-                <a href="#"><span>AR</span>Rolling</a>
+                <span class="logo-ar">AR</span>Rolling
             </div>
-            <div class="nav-toggler">
-                <span></span>
-            </div>
-            <ul class="nav">
-                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
-                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-                <li><a href="#contact"><i class="fa fa-comments"></i>Reach Me</a></li>
-            </ul>
+            <nav class="nav-menu">
+                <button class="nav-item active" data-section="home">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </button>
+                <button class="nav-item" data-section="about">
+                    <i class="fas fa-user"></i>
+                    <span>About</span>
+                </button>
+                <button class="nav-item" data-section="experience">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Experience</span>
+                </button>
+                <button class="nav-item" data-section="projects">
+                    <i class="fas fa-code"></i>
+                    <span>Portfolio</span>
+                </button>
+                <button class="nav-item" data-section="skills">
+                    <i class="fas fa-cogs"></i>
+                    <span>Skills</span>
+                </button>
+                <button class="nav-item" data-section="contact">
+                    <i class="fas fa-envelope"></i>
+                    <span>Reach Me</span>
+                </button>
+            </nav>
         </div>
-        <!-- ===== Aside End ====== -->
-        <!-- ===== Main Content Start ====== -->
-        <div class="main-content">
-            <!-- ===== Home Section Start ====== -->
-            <section class="home section" id="home">
-                <div class="container">
-                    <div class="row">
-                        <div class="home-info padd-15">
-                            <h3 class="hello">Hello, My name is <span class="name">Abdur Rahman Shafi</span></h3>
-                            <h3 class="my-profession">I'm a <span class="typing">Web Developer</span></h3>
-                            <p>
-                                An O and A-Levels graduate from Playpen International School and College with strong academic achievements and volunteering experience. Currently a student of BRAC University in the department of Computer Science and Engineering.  Possess photos and web development skills along with some marketing skills lastly fluency in English. Keen to pursue a career in Software Development. SEO expert with theory and technical knowledge and practiced field work. 
-                            </p>
-                            <a href="#contact" class="btn hire-me">Hire Me</a>
-                        </div>
-                        <div class="home-img padd-15">
-                            <img src="images/hero.JPG" alt="">
-                        </div>
-                    </div>
-                </div>
-            </section> 
-            <!-- ===== Home Section End ====== -->
-            <!-- ===== About Section Start ====== -->
-            <section class="about section" id="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>AboutMe</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="about-content padd-15">
-                            <div class="row">
-                                <div class="about-text padd-15">
-                                    <h3>I'm Abdur Rahman Shafi and <span>Web Developer</span></h3>
-                                    <p>An O and A-Levels graduate from Playpen International School and College with strong academic achievements and volunteering experience. Currently a student of BRAC University in the department of Computer Science and Engineering.  Possess photos and web development skills along with some marketing skills lastly fluency in English. Keen to pursue a career in Software Development. SEO expert with theory and technical knowledge and practiced field work. </p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="personal-info padd-15">
-                                    <div class="row">
-                                        <div class="info-item padd-15">
-                                            <p>Birthday:<span>21 November 2022</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Age:<span>21</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Website:<span>https://shafibr21.github.io/</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Email:<span>amishafi.ar21@gmail.com</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Degree:<span>Computer Science</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Phone:<span>+8801959 635334</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>City:<span>Dhaka</span></p>_
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Freelance:<span>Available</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="buttons padd-15">
-                                            <a href="https://raw.githubusercontent.com/shafibr21/portfolio/main/assets/files/AbdurRahmanShafiResume.pdf" class="btn" download>Download CV</a>
-
-                                            <a href="#contact" class="btn hire-me">Hire Me</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skills padd-15">
-                                    <div class="row">
-                                        <div class="skill-item padd-15">
-                                            <h5 style="color: whitesmoke;">HTML & CSS</h5>
-                                            <div class="progress">
-                                                    <div class="progress-in" style="width: 90%"></div>
-                                                    <div class="skill-percent">90%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5 style="color: whitesmoke;">React</h5>
-                                            <div class="progress">
-                                                    <div class="progress-in" style="width: 90%"></div>
-                                                    <div class="skill-percent">90%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5 style="color: whitesmoke;">JS</h5>
-                                            <div class="progress">
-                                                    <div class="progress-in" style="width: 95%"></div>
-                                                    <div class="skill-percent">95%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5 style="color: whitesmoke;">Bootstrap</h5>
-                                            <div class="progress">
-                                                    <div class="progress-in" style="width: 45%"></div>
-                                                    <div class="skill-percent">45%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5 style="color: whitesmoke;">Python</h5>
-                                            <div class="progress">
-                                                    <div class="progress-in" style="width: 80%"></div>
-                                                    <div class="skill-percent">80%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5 style="color: whitesmoke;">Next JS</h5>
-                                            <div class="progress">
-                                                    <div class="progress-in" style="width: 80%"></div>
-                                                    <div class="skill-percent">80%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5 style="color: whitesmoke;">Tailwind</h5>
-                                            <div class="progress">
-                                                    <div class="progress-in" style="width: 40%"></div>
-                                                    <div class="skill-percent">40%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5 style="color: whitesmoke;">Express</h5>
-                                            <div class="progress">
-                                                    <div class="progress-in" style="width: 80%"></div>
-                                                    <div class="skill-percent">80%</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="education padd-15">
-                                    <h3 class="title">Education</h3>
-                                    <div class="row">
-                                        <div class="timeline-box padd-15">
-                                            <div class="timeline shadow-dark">
-                                                <!-- ===== timeline item ====== -->
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2017- 2019
-                                                    </h3>
-                                                    <h4 class="timeline-title">O'levels</h4>
-                                                    <p class="timeline-text">Subjects:  Maths (A*), Physics (A*), Additional Maths (A), Bengali(A), English(B), Chemistry(B), Computer Science(B) </p>
-                                                </div>
-                                                <!-- ===== timeline item ====== -->
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2019- 2021
-                                                    </h3>
-                                                    <h4 class="timeline-title">A'levels</h4>
-                                                    <p class="timeline-text">Subjects: Mathematics (A), Chemistry (A), Physics (A), Computer  Science(A)</p>
-                                                </div>
-                                                <!-- ===== timeline item ====== -->
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2021- present
-                                                    </h3>
-                                                    <h4 class="timeline-title">Bachelors in Computer Science</h4>
-                                                    <p class="timeline-text">Brac e 4 ta semester sesh akhon o janina ki portesi, amar cg er obotha onek baal xD</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="experience padd-15">
-                                    <h3 class="title">Experience</h3>
-                                    <div class="row">
-                                        <div class="timeline-box padd-15">
-                                            <div class="timeline shadow-dark">
-                                                <!-- ===== timeline item ====== -->
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2019- 2020
-                                                    </h3>
-                                                    <h4 class="timeline-title">Photo Editor</h4>
-                                                    <p class="timeline-text">Content manager in an online local cosmetics shop for their onine portals. Photo editing and manupulating techniques were in heavvly used to carry out the job using Adobe Photoshop.</p>
-                                                </div>
-                                                <!-- ===== timeline item ====== -->
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2021- 2022
-                                                    </h3>
-                                                    <h4 class="timeline-title">Front End Web developer</h4>
-                                                    <p class="timeline-text">Worked at Plan B Insites at their web designer. Used to create html templates and responsive web pages using HTML and CSS. </p>
-                                                </div>
-                                                <!-- ===== timeline item ====== -->
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2023- present
-                                                    </h3>
-                                                    <h4 class="timeline-title">Online Course Management System (PHP)</h4>
-                                                    <p class="timeline-text">Developed a comprehensive online course management system for a university course using PHP, MySQL.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ===== About Section End ====== -->
-            <!-- ===== Services Section Start ====== -->
-            <section class="service section" id="services">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Services</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!-- ===== Service item Start ====== -->
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-mobile-alt"></i>
-                                </div>
-                                <h4>Mobile App Design</h4>
-                            <p></p>
-                            </div>
-                        </div>
-                        <!-- ===== Service item End ===== -->
-                        <!-- ===== Service item Start ====== -->
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-laptop-code"></i>
-                                </div>
-                                <h4>SEO Expert</h4>
-                            <p> </p>
-                            </div>
-                        </div>
-                        <!-- ===== Service item End ===== -->
-                        <!-- ===== Service item Start ====== -->
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-palette"></i>
-                                </div>
-                                <h4>Graphic Designer</h4>
-                                    <p></p>
-                            </div>
-                        </div>
-                        <!-- ===== Service item End ===== -->
-                        <!-- ===== Service item Start ====== -->
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-code"></i>
-                                </div>
-                                <h4>Web Developer</h4>
-                            <p></p>
-                            </div>
-                        </div>
-                        <!-- ===== Service item End ===== -->
-                        <!-- ===== Service item Start ====== -->
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-search"></i>
-                                </div>
-                                <h4>Research</h4>
-                            <p></p>
-                            </div>
-                        </div>
-                        <!-- ===== Service item End ===== -->
-                        <!-- ===== Service item Start ====== -->
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-bullhorn"></i>
-                                </div>
-                                <h4>Morderator</h4>
-                            <p></p>
-                            </div>
-                        </div>
-                        <!-- ===== Service item End ===== -->
-                    </div>
-                </div>
-            </section>
-            <!-- ===== Services Section End ====== -->
-            <!-- ===== Porfolio Section Start ====== -->
-            <section class="portfolio section" id="portfolio">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Portfolio</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="portfolio-heading padd-15">
-                            <h2>My Graphic Design Projects:</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!--===== portfolio item Start ======-->
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img padd-15">
-                                    <a href="images/portfolio/portfolio-1.jpg">
-                                    <img src="images/portfolio/portfolio-1.jpg" alt="blgari poster">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--===== portfolio item End ======-->
-                        <!--===== portfolio item Start ======-->
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <a href="images/portfolio/portfolio-7.jpg">
-                                    <img src="images/portfolio/portfolio-7.jpg" alt="moumita logo">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--===== portfolio item End ======-->
-                        <!--===== portfolio item Start ======-->
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <a href="images/portfolio/portfolio-6.jpg">
-                                    <img src="images/portfolio/portfolio-6.jpg" alt="boss perfume">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--===== portfolio item End ======-->
-                        <!--===== portfolio item Start ======-->
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img pa">
-                                    <a href="images/portfolio/portfolio-4.jpg">
-                                    <img src="images/portfolio/portfolio-4.jpg" alt="azzaro chrome ">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--===== portfolio item End ======-->
-                        <!--===== portfolio item Start ======-->
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <a href="images/portfolio/portfolio-8.png">
-                                    <img src="images/portfolio/portfolio-8.png" alt="loners logo">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--===== portfolio item End ======-->
-                        <!--===== portfolio item Start ======-->
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <a href="images/portfolio/portfolio-5.jpg">
-                                    <img src="images/portfolio/portfolio-5.jpg" alt="blgari set">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--===== portfolio item End ======-->
-                    </div>
-                    <div class="row">
-                        <div class="portfolio-heading padd-15">
-                            <h2>My University Projects:</h2>
-                        </div>
-                            <!--===== portfolio item Start ======-->
-                                <div class="portfolio-item padd-15">
-                                    <div class="portfolio-item-inner shadow-dark">
-                                        <div class="portfolio-img padd-15">
-                                            <a href="https://shafibr21.github.io/391ass2/">
-                                                <img src="images/portfolio/Uni_project-1.png" alt="cse391_lab2">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            <!--===== portfolio item End ======-->
-                            <!--===== portfolio item Start ======-->
-                            <div class="portfolio-item padd-15">
-                                <div class="portfolio-item-inner shadow-dark">
-                                    <div class="portfolio-img padd-15">
-                                        <a href="http://cse391lab3.infinityfreeapp.com">
-                                            <img src="images/portfolio/Uni_project-2.png" alt="cse391_lab3">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--===== portfolio item End ======--> 
-                            <!--===== portfolio item Start ======-->
-                            <div class="portfolio-item padd-15">
-                                <div class="portfolio-item-inner shadow-dark">
-                                    <div class="portfolio-img padd-15">
-                                        <a href="https://rickshaw-calculator.netlify.app/">
-                                            <img src="images/portfolio/Uni_project-3.png.png" alt="calculator-react">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        <!--===== portfolio item End ======-->  
-                    </div>
-                </div>
-            </section>
-            <!-- ===== Portfolio Section End ====== -->
-            <!-- ===== Contact Section Start ====== -->
-            <section class="contact section" id="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Reach Me</h2>
-                        </div>
-                    </div>
-                    <h3 class="contact-title">Have You Any Query?</h3>
-                    <h4 class="contact-sub-title">I'm at Your Service</h4>
-                    <div class="row">
-                        <!-- ===== Contact info item start ====== -->
-                        <div class="contact-info-item">
-                            <div class="icon"><i class="fa fa-phone"></i></div>
-                            <h4>Contact</h4>
-                            <p>+880 1959 635334</p>
-                        </div>
-                        <!-- ===== Contact info item end ====== -->
-                        <!-- ===== Contact info item start ====== -->
-                        <div class="contact-info-item">
-                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
-                            <h4>Education</h4>
-                            <a href="https://www.bracu.ac.bd/" target="_blank" style="color: white;">Brac University</a>
-                        </div>
-                        <!-- ===== Contact info item end ====== -->
-                        <!-- ===== Contact info item start ====== -->
-                        <div class="contact-info-item">
-                            <div class="icon"><i class="fa fa-envelope"></i></div>
-                            <h4>Email</h4>
-                            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank" style="color: white;">G-mail</a>
-                        </div>
-                        <!-- ===== Contact info item end ====== -->
-                        <!-- ===== Contact info item start ====== -->
-                        <div class="contact-info-item">
-                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
-                            <h4>Social</h4>
-                            <a href="https://www.linkedin.com/in/abdur-rahman-s-910ab1180/" target="_blank" style="color: white;">Linkedin profile</a>
-                        </div>
-                        <!-- ===== Contact info item end ====== -->
-                    </div>
-                    <h3 class="contact-title">SEND ME AN EMAIL</h3>
-                    <!-- ===== Contact Form
-                    <div class="row">
-                        <div class="contact-form padd-15">
-                            <div class="row">
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Name">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Subject">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <button type="submit" class="btn">Send Message</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    ======= -->
-                </div>
-                <div class="modifier">
-                    <p id="page-location"></p>
-                    <p id="last-modification-date"></p>
-                </div>
-            </section>
-            <!-- ===== Contact Section End ====== -->
-        </div>
-        <!-- ===== Main Content End ====== -->
     </div>
-    <!-- ===== Main Container End ===== -->
-    <!-- =====  JS Files ====== --> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <script src="script.js"></script>
 
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+        <div class="mobile-nav-content">
+            <div class="mobile-logo">
+                <span class="logo-ar">AR</span>Rolling
+            </div>
+            <div class="mobile-menu">
+                <button class="mobile-nav-item active" data-section="home">Home</button>
+                <button class="mobile-nav-item" data-section="about">About</button>
+                <button class="mobile-nav-item" data-section="projects">Portfolio</button>
+                <button class="mobile-nav-item" data-section="contact">Contact</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-text">
+                        <h3 class="hero-greeting">
+                            Hello, My name is <span class="text-red">Abdur Rahman Shafi</span>
+                        </h3>
+                        <h1 class="hero-title">
+                            I'm a <span class="text-red typing"></span>
+                        </h1>
+                        <p class="hero-description">
+                            I am an enthusiastic Computer Science student at BRAC University with a strong foundation in software
+                            development and web technologies. I possess hands-on experience in project management and skills in
+                            various programming languages. Keen to pursue a career in Software Development.
+                        </p>
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary" onclick="scrollToSection('contact')">
+                                Hire Me
+                            </button>
+                            <a href="https://raw.githubusercontent.com/shafibr21/portfolio/main/assets/files/AbdurRahmanShafiResume.pdf" download class="btn btn-outline">
+                                <i class="fas fa-download"></i>
+                                Download CV
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="profile-image-container">
+                            <img src="images/hero.JPG" alt="Abdur Rahman Shafi" class="profile-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">
+                    About <span class="text-red">Me</span>
+                </h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3 class="about-subtitle">
+                            I'm Abdur Rahman Shafi and <span class="text-red">Full Stack Developer</span>
+                        </h3>
+                        <p class="about-description">
+                            I am an enthusiastic Computer Science student at BRAC University with a strong foundation in software
+                            development and web technologies. My goal is to continue growing my expertise while contributing
+                            effectively in roles related to software development. I am passionate about solving complex problems
+                            and eager to embrace opportunities for learning and growth.
+                        </p>
+                        <div class="about-details">
+                            <div class="detail-column">
+                                <div class="detail-item">
+                                    <span class="detail-label">Age:</span>
+                                    <span class="detail-value">22</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Degree:</span>
+                                    <span class="detail-value">Computer Science</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">City:</span>
+                                    <span class="detail-value">Dhaka, Bangladesh</span>
+                                </div>
+                            </div>
+                            <div class="detail-column">
+                                <div class="detail-item">
+                                    <span class="detail-label">Phone:</span>
+                                    <a href="tel:+8801959635334" class="detail-link">+880 1959 635334</a>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Email:</span>
+                                    <a href="mailto:amishafi.ar21@gmail.com" class="detail-link">
+                                        amishafi.ar21@gmail.com
+                                    </a>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Freelance:</span>
+                                    <span class="detail-value available">Available</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-section">
+                        <h3 class="education-title">Education</h3>
+                        <div class="education-list">
+                            <div class="education-card">
+                                <div class="education-header">
+                                    <h4 class="education-degree">Bachelor of Computer Science and Engineering</h4>
+                                    <span class="education-period">09/2021 - Present</span>
+                                </div>
+                                <p class="education-institution">BRAC University</p>
+                                <p class="education-location">Dhaka, Bangladesh</p>
+                            </div>
+                            <div class="education-card">
+                                <div class="education-header">
+                                    <h4 class="education-degree">A-Levels</h4>
+                                    <span class="education-period">08/2019 - 08/2021</span>
+                                </div>
+                                <p class="education-institution">Playpen International School and College</p>
+                                <p class="education-location">Dhaka, Bangladesh</p>
+                                <p class="education-subjects">Mathematics (A), Chemistry (A), Physics (A), Computer Science (A)</p>
+                            </div>
+                            <div class="education-card">
+                                <div class="education-header">
+                                    <h4 class="education-degree">O-Levels</h4>
+                                    <span class="education-period">08/2017 - 06/2019</span>
+                                </div>
+                                <p class="education-institution">Playpen International School and College</p>
+                                <p class="education-location">Dhaka, Bangladesh</p>
+                                <p class="education-subjects">Maths (A*), Physics (A*), Additional Maths (A), Bengali (A), English (B), Chemistry (B), Computer Science (B)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <h2 class="section-title">
+                    My <span class="text-red">Experience</span>
+                </h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-line"></div>
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div class="experience-info">
+                                    <h3 class="experience-title">Exam Invigilator</h3>
+                                    <p class="experience-company">British Council Bangladesh</p>
+                                    <p class="experience-location">Dhaka, Bangladesh</p>
+                                </div>
+                                <span class="experience-period">
+                                    <i class="fas fa-calendar"></i>
+                                    04/2024 - Present
+                                </span>
+                            </div>
+                            <ul class="experience-description">
+                                <li>Responsible for conducting exams</li>
+                                <li>Ensuring the smooth and fair conduct of exams</li>
+                                <li>Enforcing regulations and supporting candidates during exam sessions</li>
+                                <li>Developing skills in attendance management and volunteer management</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-line"></div>
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div class="experience-info">
+                                    <h3 class="experience-title">Internship Trainee</h3>
+                                    <p class="experience-company">Beyond Innovations & Technologies Limited</p>
+                                    <p class="experience-location">Dhaka, Bangladesh</p>
+                                </div>
+                                <span class="experience-period">
+                                    <i class="fas fa-calendar"></i>
+                                    08/2024 - 10/2024
+                                </span>
+                            </div>
+                            <ul class="experience-description">
+                                <li>Part-time internship focusing on software development</li>
+                                <li>Developing both front-end and back-end applications</li>
+                                <li>Creating responsive and visually engaging websites using HTML, CSS, JavaScript, and React</li>
+                                <li>Experience with Laravel and PHP frameworks</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-line"></div>
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div class="experience-info">
+                                    <h3 class="experience-title">Software Engineer</h3>
+                                    <p class="experience-company">Plan B Insights</p>
+                                    <p class="experience-location">Remote</p>
+                                </div>
+                                <span class="experience-period">
+                                    <i class="fas fa-calendar"></i>
+                                    07/2023 - 09/2023
+                                </span>
+                            </div>
+                            <ul class="experience-description">
+                                <li>Freelance project focusing on front-end development</li>
+                                <li>Worked as a front-end developer using HTML and CSS to build responsive websites</li>
+                                <li>Gained exposure to backend technologies and problem-solving within a remote setup</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div class="experience-info">
+                                    <h3 class="experience-title">Photo Editor</h3>
+                                    <p class="experience-company">Moumita Rakamary</p>
+                                    <p class="experience-location">Dhaka, Bangladesh</p>
+                                </div>
+                                <span class="experience-period">
+                                    <i class="fas fa-calendar"></i>
+                                    07/2020 - 08/2021
+                                </span>
+                            </div>
+                            <ul class="experience-description">
+                                <li>Part-time role focusing on photo editing and content management</li>
+                                <li>Worked on photo shoots and editing images using Adobe Lightroom and Photoshop</li>
+                                <li>Assisted in managing and promoting online content for social media platforms</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">
+                    My <span class="text-red">Portfolio</span>
+                </h2>
+
+                <!-- Development Projects -->
+                <div class="project-category">
+                    <h3 class="category-title">Development Projects</h3>
+                    <div class="projects-grid">
+    <div class="project-card">
+        <div class="project-thumbnail">
+            <img src="images/golden_sports.png" alt="Golden Sports Project" class="project-image">
+            <div class="project-overlay">
+                <span class="project-status">In Development</span>
+            </div>
+        </div>
+        <div class="project-content">
+            <div class="project-header">
+                <h3 class="project-title">Golden Sports</h3>
+                <span class="project-period">02/2025 - Present</span>
+            </div>
+            <p class="project-description">
+                Currently developing an e-commerce website for Golden Sports, an online outlet specializing in trophies, medals, and jerseys. The platform allows customers to upload and submit their own designs for their orders, enabling full customization to match their preferences.
+            </p>
+            <div class="project-technologies">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">Prisma ORM</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">API Development</span>
+            </div>
+            <div class="project-links">
+                <span class="btn btn-outline-small" style="opacity: 0.6; cursor: not-allowed;">
+                    <i class="fas fa-clock"></i>
+                    In Development
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="project-card">
+        <div class="project-thumbnail">
+            <img src="images/academiX.png" alt="AcademiX Project" class="project-image">
+            <div class="project-overlay">
+                <span class="project-status">Completed</span>
+            </div>
+        </div>
+        <div class="project-content">
+            <div class="project-header">
+                <h3 class="project-title">AcademiX</h3>
+                <span class="project-period">10/2024 - 12/2024</span>
+            </div>
+            <p class="project-description">
+                A web-based platform to streamline thesis project management with role-based access, proposal submissions, and supervision tracking.
+            </p>
+            <div class="project-technologies">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Express.js</span>
+            </div>
+            <div class="project-links">
+                <a href="https://github.com/shafibr21/AcademiX" target="_blank" class="btn btn-outline-small">
+                    <i class="fab fa-github"></i>
+                    Code
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="project-card">
+        <div class="project-thumbnail">
+            <img src="images/clothin_store.png" alt="Clothing Store Project" class="project-image">
+            <div class="project-overlay">
+                <span class="project-status">Completed</span>
+            </div>
+        </div>
+        <div class="project-content">
+            <div class="project-header">
+                <h3 class="project-title">Clothing Store</h3>
+                <span class="project-period">07/2024 - 09/2024</span>
+            </div>
+            <p class="project-description">
+                Online clothing store project developed with JavaScript featuring modern e-commerce functionality.
+            </p>
+            <div class="project-technologies">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">PHP</span>
+            </div>
+            <div class="project-links">
+                <a href="https://github.com/shafibr21/akashPro" target="_blank" class="btn btn-outline-small">
+                    <i class="fab fa-github"></i>
+                    Code
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="project-card">
+        <div class="project-thumbnail">
+            <img src="images/car_prediction.png" alt="Car Price Prediction Project" class="project-image">
+            <div class="project-overlay">
+                <span class="project-status">Completed</span>
+            </div>
+        </div>
+        <div class="project-content">
+            <div class="project-header">
+                <h3 class="project-title">Car Price Prediction</h3>
+                <span class="project-period">12/2024</span>
+            </div>
+            <p class="project-description">
+                Developed a predictive model to classify car price categories based on attributes using machine learning.
+            </p>
+            <div class="project-technologies">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Jupyter Notebook</span>
+                <span class="tech-tag">Machine Learning</span>
+            </div>
+            <div class="project-links">
+                <a href="https://github.com/shafibr21/Car-Price-Prediction" target="_blank" class="btn btn-outline-small">
+                    <i class="fab fa-github"></i>
+                    Code
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+
+                <!-- Graphic Design Projects -->
+                <div class="project-category">
+                    <h3 class="category-title">Graphic Design Projects</h3>
+                    <div class="design-grid">
+                        <div class="design-card" onclick="openLightbox('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/portfolio-1.jpg-Dd6hG6DQWkC8I5bDeUicMopHUycGqU.jpeg', 'BVLGARI Men Collection')">
+                            <div class="design-image">
+                                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/portfolio-1.jpg-Dd6hG6DQWkC8I5bDeUicMopHUycGqU.jpeg" alt="BVLGARI Men Collection">
+                                <div class="design-overlay">
+                                    <button class="btn btn-primary-small">
+                                        <i class="fas fa-search-plus"></i>
+                                        View
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="design-content">
+                                <h4 class="design-title">BVLGARI Men Collection</h4>
+                                <p class="design-description">Luxury perfume advertisement design for BVLGARI Men Collection</p>
+                            </div>
+                        </div>
+                        <div class="design-card" onclick="openLightbox('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/portfolio-5.jpg-TAiJdJ9AztZQxxeOcZR9kvJ3OCcnSN.jpeg', 'BVLGARI Gift Set')">
+                            <div class="design-image">
+                                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/portfolio-5.jpg-TAiJdJ9AztZQxxeOcZR9kvJ3OCcnSN.jpeg" alt="BVLGARI Gift Set">
+                                <div class="design-overlay">
+                                    <button class="btn btn-primary-small">
+                                        <i class="fas fa-search-plus"></i>
+                                        View
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="design-content">
+                                <h4 class="design-title">BVLGARI Gift Set</h4>
+                                <p class="design-description">BVLGARI perfume gift set advertisement with elegant packaging design</p>
+                            </div>
+                        </div>
+                        <div class="design-card" onclick="openLightbox('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/portfolio-2.jpg-7u17bpqmrPddqJ0ttMvtE7xZkLe3Zi.jpeg', 'BOSS Orange')">
+                            <div class="design-image">
+                                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/portfolio-2.jpg-7u17bpqmrPddqJ0ttMvtE7xZkLe3Zi.jpeg" alt="BOSS Orange">
+                                <div class="design-overlay">
+                                    <button class="btn btn-primary-small">
+                                        <i class="fas fa-search-plus"></i>
+                                        View
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="design-content">
+                                <h4 class="design-title">BOSS Orange</h4>
+                                <p class="design-description">Hugo Boss Orange perfume advertisement with warm golden aesthetics</p>
+                            </div>
+                        </div>
+                        <div class="design-card" onclick="openLightbox('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/portfolio-4.jpg-BdZ2Tcvflph8aS3XQe0TMfYmeY3SQJ.jpeg', 'Azzaro Chrome Aqua')">
+                            <div class="design-image">
+                                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/portfolio-4.jpg-BdZ2Tcvflph8aS3XQe0TMfYmeY3SQJ.jpeg" alt="Azzaro Chrome Aqua">
+                                <div class="design-overlay">
+                                    <button class="btn btn-primary-small">
+                                        <i class="fas fa-search-plus"></i>
+                                        View
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="design-content">
+                                <h4 class="design-title">Azzaro Chrome Aqua</h4>
+                                <p class="design-description">Pre-order advertisement for Azzaro Chrome Aqua with turquoise theme</p>
+                            </div>
+                        </div>
+                        <div class="design-card" onclick="openLightbox('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/portfolio-3.jpg-GRV0Gk9D73EkBgYhAmZzhXNuf31HEp.jpeg', 'Giorgio Armani MY WAY')">
+                            <div class="design-image">
+                                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/portfolio-3.jpg-GRV0Gk9D73EkBgYhAmZzhXNuf31HEp.jpeg" alt="Giorgio Armani MY WAY">
+                                <div class="design-overlay">
+                                    <button class="btn btn-primary-small">
+                                        <i class="fas fa-search-plus"></i>
+                                        View
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="design-content">
+                                <h4 class="design-title">Giorgio Armani MY WAY</h4>
+                                <p class="design-description">Elegant Giorgio Armani MY WAY perfume advertisement design</p>
+                            </div>
+                        </div>
+                        <div class="design-card" onclick="openLightbox('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/portfolio-7.jpg-p6Lx3U1GpTio5oy6I8TJgA5J7VLG10.jpeg', 'MR Logo Design')">
+                            <div class="design-image">
+                                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/portfolio-7.jpg-p6Lx3U1GpTio5oy6I8TJgA5J7VLG10.jpeg" alt="MR Logo Design">
+                                <div class="design-overlay">
+                                    <button class="btn btn-primary-small">
+                                        <i class="fas fa-search-plus"></i>
+                                        View
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="design-content">
+                                <h4 class="design-title">MR Logo Design</h4>
+                                <p class="design-description">Luxury golden MR logo with crown design on black background</p>
+                            </div>
+                        </div>
+                        <div class="design-card" onclick="openLightbox('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/portfolio-6.jpg-nw7bxxJ9tfeBjqdej6C5NFyb0kqwc5.jpeg', 'BOSS Hugo Boss')">
+                            <div class="design-image">
+                                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/portfolio-6.jpg-nw7bxxJ9tfeBjqdej6C5NFyb0kqwc5.jpeg" alt="BOSS Hugo Boss">
+                                <div class="design-overlay">
+                                    <button class="btn btn-primary-small">
+                                        <i class="fas fa-search-plus"></i>
+                                        View
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="design-content">
+                                <h4 class="design-title">BOSS Hugo Boss</h4>
+                                <p class="design-description">Sleek BOSS Hugo Boss perfume bottle advertisement</p>
+                            </div>
+                        </div>
+                        <div class="design-card" onclick="openLightbox('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/portfolio-8-mvGh8MgtvTD5WB2KBiQIXYbC6XXT74.png', 'TT Logo Design')">
+                            <div class="design-image">
+                                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/portfolio-8-mvGh8MgtvTD5WB2KBiQIXYbC6XXT74.png" alt="TT Logo Design">
+                                <div class="design-overlay">
+                                    <button class="btn btn-primary-small">
+                                        <i class="fas fa-search-plus"></i>
+                                        View
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="design-content">
+                                <h4 class="design-title">TT Logo Design</h4>
+                                <p class="design-description">Modern geometric logo design with blue and purple elements</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">
+                    My <span class="text-red">Skills</span>
+                </h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">TypeScript</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">React</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Next.js</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Node.js</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Express.js</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">PHP</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Laravel</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">MongoDB</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">PostgreSQL</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">MySQL</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Prisma</span>
+                            <span class="skill-percentage">65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="65"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">HTML & CSS</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">React Native</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Machine Learning</span>
+                            <span class="skill-percentage">65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="65"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Photoshop</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Microsoft Office</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="text-red">Reach</span> Me
+                </h2>
+                <div class="contact-intro">
+                    <h3 class="contact-subtitle">Have You Any Query?</h3>
+                    <p class="contact-description">I'm at Your Service</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <i class="fas fa-phone contact-icon"></i>
+                        <h4 class="contact-title">Contact</h4>
+                        <a href="tel:+8801959635334" class="contact-info">+880 1959 635334</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <h4 class="contact-title">Email</h4>
+                        <a href="mailto:amishafi.ar21@gmail.com?subject=Portfolio%20Inquiry&body=Hello%20Abdur%20Rahman,%0A%0AI%20found%20your%20portfolio%20and%20would%20like%20to%20discuss..." class="contact-link">G-mail</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        <h4 class="contact-title">Education</h4>
+                        <a href="https://www.bracu.ac.bd/" target="_blank" class="contact-link">Brac University</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-linkedin contact-icon"></i>
+                        <h4 class="contact-title">Social</h4>
+                        <a href="https://www.linkedin.com/in/abdur-rahman-s-910ab1180/" target="_blank" class="contact-link">Linkedin profile</a>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/shafibr21" target="_blank" class="btn btn-outline">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/abdur-rahman-s-910ab1180/" target="_blank" class="btn btn-outline">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                    <a href="https://shafibr21.github.io/portfolio/" target="_blank" class="btn btn-outline">
+                        <i class="fas fa-globe"></i>
+                        Portfolio
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p class="footer-text">© 2024 Abdur Rahman Shafi. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-image" src="/placeholder.svg" alt="">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
