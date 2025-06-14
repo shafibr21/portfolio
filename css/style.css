@@ -209,12 +209,12 @@ body {
 }
 
 .profile-image-container {
-  background: linear-gradient(to right, var(--red-primary), var(--red-secondary));
+  
   padding: 0.25rem;
   overflow: hidden;
   margin: auto;
   border-radius: 5px;
-  height: 400px;
+  height: 500px;
 }
 
 .profile-image {
