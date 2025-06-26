@@ -185,6 +185,25 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
   })
+
+  // Set dynamic last modified date
+  function setLastModifiedDate() {
+    const lastModifiedElement = document.getElementById("last-modified")
+    if (lastModifiedElement) {
+      const now = new Date()
+      const options = { 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric',
+        timeZone: 'UTC'
+      }
+      const formattedDate = now.toLocaleDateString('en-US', options)
+      lastModifiedElement.textContent = `Last modified: ${formattedDate}`
+    }
+  }
+
+  // Initialize last modified date
+  setLastModifiedDate()
 })
 
 // Lightbox functionality
