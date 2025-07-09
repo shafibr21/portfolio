@@ -22,7 +22,7 @@ body {
 /* Color Variables */
 :root {
   --red-primary: #ec1839;
-  --red-secondary: #d41532;
+  --red-secondary: #b96673;
   --gray-900: #111827;
   --gray-800: #1f2937;
   --gray-700: #374151;
@@ -624,7 +624,7 @@ body {
 
 .project-period {
   background-color: rgba(236, 24, 57, 0.2);
-  color: var(--red-primary);
+  color: rgb(214, 194, 194);
   padding: 0.25rem 0.75rem;
   border-radius: 0.25rem;
   font-size: 0.75rem;
@@ -647,8 +647,8 @@ body {
 }
 
 .tech-tag {
-  border: 1px solid rgba(236, 24, 57, 0.3);
-  color: var(--red-primary);
+  border: 1px solid rgba(240, 81, 104, 0.3);
+  color: rgb(202, 181, 181);
   padding: 0.25rem 0.75rem;
   border-radius: 0.25rem;
   font-size: 0.75rem;
