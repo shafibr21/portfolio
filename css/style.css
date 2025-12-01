@@ -111,23 +111,24 @@ body {
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--gray-700);
   display: block;
+  width: screen-width;
 }
 
 .mobile-nav-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 5px;
 }
 
 .mobile-logo {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
 .mobile-menu {
   display: flex;
-  gap: 1rem;
+  gap: 5px;
 }
 
 .mobile-nav-item {
@@ -209,7 +210,6 @@ body {
 }
 
 .profile-image-container {
-  
   padding: 0.25rem;
   overflow: hidden;
   margin: auto;
@@ -833,7 +833,11 @@ body {
 
 .skill-progress {
   height: 100%;
-  background: linear-gradient(to right, var(--red-primary), var(--red-secondary));
+  background: linear-gradient(
+    to right,
+    var(--red-primary),
+    var(--red-secondary)
+  );
   border-radius: 9999px;
   width: 0;
   transition: width 1s ease;
@@ -1028,8 +1032,6 @@ body {
   .contact-grid {
     grid-template-columns: repeat(4, 1fr);
   }
-
-  
 }
 
 /* Animations */
