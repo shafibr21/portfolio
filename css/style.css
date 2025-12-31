@@ -172,7 +172,10 @@ body {
 }
 
 .hero-text {
+  width: 400px;
   text-align: center;
+  margin: 0 auto;
+  padding-left: 20px  ;
 }
 
 .hero-greeting {
@@ -1006,6 +1009,7 @@ body {
 
   .hero-text {
     text-align: left;
+    width: 650px;
   }
 
   .hero-description {
